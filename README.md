@@ -1,9 +1,18 @@
 # 🛡️ MedSafe - Prescription Safety Verification & Medication Timeline
 
+[![Live Demo on Vercel](https://img.shields.io/badge/Live_Demo-medsafe--sooty.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://medsafe-sooty.vercel.app)
 [![Vite](https://img.shields.io/badge/Vite-6.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-3.5_Flash_Lite-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+---
+
+### 🌐 Live Production Deployment
+- 🚀 **Live Web App:** **[https://medsafe-sooty.vercel.app](https://medsafe-sooty.vercel.app)**
+- 📂 **GitHub Repository:** **[https://github.com/aditi123-cyber/MedSafe](https://github.com/aditi123-cyber/MedSafe)**
+
+---
 
 > **MedSafe** is an intelligent, AI-powered prescription verification and medication adherence platform designed to protect patients from adverse drug-drug interactions, duplicate molecule overdoses, and incorrect dosing intervals.
 
@@ -39,11 +48,17 @@
 - 24/7 conversational healthcare assistant integrated with active patient context (profile, age, allergies, active prescriptions, and contraindications).
 - Instant conversational answers for symptoms, missed doses, and dietary precautions.
 
-### 🚨 6. Caregiver Emergency SOS & Pop-up Broadcast
-- Instant patient emergency trigger for "Feeling Dizzy", "Missed Dose", or "Urgent SOS".
-- Live caregiver notification popups with audio chime and SMS payload simulation.
+### 📍 6. Live Patient GPS Location Tracker
+- Real-time satellite coordinates, landmark identification, and accuracy radar.
+- **1-Click Google Maps Live Route** navigation link for paramedics and proxies.
+- Auto-syncs live GPS coordinates with every emergency dispatch and SMS payload.
 
-### 🎨 7. Taste-Skill Anti-Slop Visual Design
+### 🚨 7. 5 Emergency Contacts & One-Click Master SOS Broadcast
+- Pre-configured directory of **5 emergency lifelines** (Primary Caregiver, Ambulance 108/112, Cardiologist, Hospital Emergency ICU, Local Proxy).
+- Instant 1-tap direct phone call (`tel:`) and SOS SMS dispatch.
+- Master **"🚨 Broadcast Emergency SOS + Live GPS to All 5 Contacts"** button.
+
+### 🎨 8. Taste-Skill Anti-Slop Visual Design
 - Sleek **Midnight Navy & Cyber Glow** dark mode and crisp clinical light mode.
 - Glassmorphic panels with subtle `1px` inner highlights and tactile `:active` micro-interactions.
 - Custom modern typography with Outfit, Plus Jakarta Sans, and JetBrains Mono.
