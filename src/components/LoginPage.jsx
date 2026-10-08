@@ -792,10 +792,27 @@ export default function LoginPage({ isModal = false, onClose = () => {} }) {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            gap: "6px"
+            gap: "6px",
+            flexWrap: "wrap"
           }}>
             <span>MedSafe Platform • Developers:</span>
-            <strong style={{ color: "var(--text-main)" }}>Aashutosh Rajput & Aditi Gupta</strong>
+            <a 
+              href="https://github.com/aashutoshrajput43-aiml" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ color: "var(--teal-accent)", textDecoration: "none", fontWeight: 700 }}
+            >
+              Aashutosh Rajput
+            </a>
+            <span>&</span>
+            <a 
+              href="https://github.com/aditi123-cyber" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ color: "var(--teal-accent)", textDecoration: "none", fontWeight: 700 }}
+            >
+              Aditi Gupta
+            </a>
           </div>
         </div>
       </div>

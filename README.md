@@ -14,9 +14,9 @@
 
 ---
 
-### 👨‍💻 Developers & Core Team
-- **Aashutosh Rajput** — Full-Stack & AI Systems Developer
-- **Aditi Gupta** — Full-Stack & Clinical UX Developer
+### 👨‍💻 Developers & Core Contributors
+- 👨‍💻 **Aashutosh Rajput** ([@aashutoshrajput43-aiml](https://github.com/aashutoshrajput43-aiml)) — Full-Stack & AI Systems Developer
+- 👩‍💻 **Aditi Gupta** ([@aditi123-cyber](https://github.com/aditi123-cyber)) — Full-Stack & Clinical UX Developer
 
 ---
 
@@ -161,8 +161,11 @@ MedSafe/
 ## 👥 Authors & Development Team
 
 Developed with ❤️ by:
-- **Aashutosh Rajput**
-- **Aditi Gupta**
+
+| Contributor | Role | GitHub Profile |
+| :--- | :--- | :--- |
+| **Aashutosh Rajput** | AI Systems & Full-Stack Engineer | [![GitHub](https://img.shields.io/badge/GitHub-aashutoshrajput43--aiml-181717?style=flat&logo=github)](https://github.com/aashutoshrajput43-aiml) |
+| **Aditi Gupta** | Full-Stack & Clinical UX Engineer | [![GitHub](https://img.shields.io/badge/GitHub-aditi123--cyber-181717?style=flat&logo=github)](https://github.com/aditi123-cyber) |
 
 ---
 

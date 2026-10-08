@@ -232,8 +232,24 @@ export default function SidebarNav({ onOpenSearch }) {
         <div style={{ fontWeight: 700, color: "var(--primary-light)", display: "flex", alignItems: "center", justifyContent: "center", gap: "4px" }}>
           <span>Crafted by</span>
         </div>
-        <div style={{ fontWeight: 800, color: "var(--text-main)", marginTop: "1px" }}>
-          Aashutosh Rajput & Aditi Gupta
+        <div style={{ fontWeight: 800, color: "var(--text-main)", marginTop: "2px", display: "flex", justifyContent: "center", gap: "6px", flexWrap: "wrap" }}>
+          <a 
+            href="https://github.com/aashutoshrajput43-aiml" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: "var(--teal-accent)", textDecoration: "none", fontWeight: 700 }}
+          >
+            Aashutosh Rajput
+          </a>
+          <span>&</span>
+          <a 
+            href="https://github.com/aditi123-cyber" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: "var(--teal-accent)", textDecoration: "none", fontWeight: 700 }}
+          >
+            Aditi Gupta
+          </a>
         </div>
       </div>
     </aside>

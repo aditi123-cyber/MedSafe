@@ -5,8 +5,14 @@
   "type": "module",
   "author": "Aashutosh Rajput & Aditi Gupta",
   "contributors": [
-    "Aashutosh Rajput",
-    "Aditi Gupta"
+    {
+      "name": "Aashutosh Rajput",
+      "url": "https://github.com/aashutoshrajput43-aiml"
+    },
+    {
+      "name": "Aditi Gupta",
+      "url": "https://github.com/aditi123-cyber"
+    }
   ],
   "scripts": {
     "dev": "vite",
