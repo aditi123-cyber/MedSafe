@@ -7,7 +7,7 @@
 
 > **MedSafe** is an intelligent, AI-powered prescription verification and medication adherence platform designed to protect patients from adverse drug-drug interactions, duplicate molecule overdoses, and incorrect dosing intervals.
 
----
+-----
 
 ## ✨ Key Features
 
