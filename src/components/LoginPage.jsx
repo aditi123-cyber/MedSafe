@@ -780,6 +780,23 @@ export default function LoginPage({ isModal = false, onClose = () => {} }) {
               </button>
             </div>
           )}
+
+          {/* Developers Attribution Footer */}
+          <div style={{
+            marginTop: "1.5rem",
+            paddingTop: "1rem",
+            borderTop: "1px solid var(--border-subtle)",
+            textAlign: "center",
+            fontSize: "0.76rem",
+            color: "var(--text-muted)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "6px"
+          }}>
+            <span>MedSafe Platform • Developers:</span>
+            <strong style={{ color: "var(--text-main)" }}>Aashutosh Rajput & Aditi Gupta</strong>
+          </div>
         </div>
       </div>
     </div>

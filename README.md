@@ -14,6 +14,12 @@
 
 ---
 
+### 👨‍💻 Developers & Core Team
+- **Aashutosh Rajput** — Full-Stack & AI Systems Developer
+- **Aditi Gupta** — Full-Stack & Clinical UX Developer
+
+---
+
 > **MedSafe** is an intelligent, AI-powered prescription verification and medication adherence platform designed to protect patients from adverse drug-drug interactions, duplicate molecule overdoses, and incorrect dosing intervals.
 
 -----
@@ -149,6 +155,14 @@ MedSafe/
 ├── vite.config.js
 └── README.md
 ```
+
+---
+
+## 👥 Authors & Development Team
+
+Developed with ❤️ by:
+- **Aashutosh Rajput**
+- **Aditi Gupta**
 
 ---
 

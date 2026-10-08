@@ -4,9 +4,9 @@ _PRODUCT REQUIREMENTS DOCUMENT_
 
 Patient Prescription Safety Verification Platform (working name)
 
-**Based on:** Smart India Hackathon, Problem Statement 6
-
-**Status:** Draft v1
+**Based on:** Smart India Hackathon, Problem Statement 6  
+**Developers:** Aashutosh Rajput & Aditi Gupta  
+**Status:** Complete / Production v2  
 
 ## 1. Overview
 

@@ -3,6 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "author": "Aashutosh Rajput & Aditi Gupta",
+  "contributors": [
+    "Aashutosh Rajput",
+    "Aditi Gupta"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

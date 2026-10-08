@@ -216,6 +216,26 @@ export default function SidebarNav({ onOpenSearch }) {
           <span>{currentUser?.email || `${medications.length} Prescriptions`}</span>
         </div>
       </div>
+
+      {/* Developer Credits Badge */}
+      <div style={{
+        marginTop: "0.5rem",
+        padding: "0.45rem 0.6rem",
+        borderRadius: "8px",
+        background: "rgba(14, 165, 233, 0.05)",
+        border: "1px solid rgba(14, 165, 233, 0.15)",
+        textAlign: "center",
+        fontSize: "0.68rem",
+        color: "var(--text-muted)",
+        lineHeight: 1.35
+      }}>
+        <div style={{ fontWeight: 700, color: "var(--primary-light)", display: "flex", alignItems: "center", justifyContent: "center", gap: "4px" }}>
+          <span>Crafted by</span>
+        </div>
+        <div style={{ fontWeight: 800, color: "var(--text-main)", marginTop: "1px" }}>
+          Aashutosh Rajput & Aditi Gupta
+        </div>
+      </div>
     </aside>
   );
 }
