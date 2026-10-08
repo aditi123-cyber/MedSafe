@@ -68,7 +68,23 @@ export const TRANSLATIONS = {
     sendMissedDoseAlert: "💊 Send \"Missed Dose\"",
     triggerUrgentSOS: "🚨 Trigger Urgent SOS",
 
+    // Live Patient Location & 5 Emergency Contacts
+    liveLocationTitle: "Live Patient GPS Location Tracker",
+    liveLocationSub: "Real-time satellite coordinates & address shared with emergency services & family proxies.",
+    gpsTrackingActive: "Live GPS Tracking Active",
+    openGoogleMaps: "Open Live Route on Google Maps",
+    refreshGPS: "Refresh GPS",
+    shareLocationBtn: "Share Live Location",
+    emergencyContactsTitle: "5 Emergency Contacts & Rapid Response Directory",
+    emergencyContactsSub: "Registered emergency lifelines & paramedics dispatched with live GPS during urgent patient SOS.",
+    broadcastSOSToAll: "🚨 Broadcast Emergency SOS + Live GPS to All 5 Contacts",
+    callContact: "Call",
+    sendSMSAlert: "Send SOS",
+    addContactBtn: "+ Add Contact",
+    manageContacts: "Manage Directory",
+
     // Scanner & Strips
+
     uploadMultiplePhotosTitle: "Upload Multiple Prescription Photos at Once",
     uploadMultiplePhotosSub: "Select 1, 2, 5, or more prescription photos, pill bottles, or medicine strips from your gallery or files.",
     browseSelectPhotosBtn: "Browse & Select Multiple Photos",
@@ -264,7 +280,23 @@ export const TRANSLATIONS = {
     sendMissedDoseAlert: "💊 भेजें: \"खुराक छूट गई\"",
     triggerUrgentSOS: "🚨 तत्काल आपातकालीन SOS भेजें",
 
+    // Live Patient Location & 5 Emergency Contacts (Hindi)
+    liveLocationTitle: "मरीज की लाइव जीपीएस लोकेशन ट्रैकर",
+    liveLocationSub: "आपातकालीन स्थिति में परिजनों व एम्बुलेंस के साथ स्वचालित रियल-टाइम लोकेशन साझा की जाती है।",
+    gpsTrackingActive: "लाइव जीपीएस ट्रैकिंग सक्रिय",
+    openGoogleMaps: "गूगल मैप्स पर लाइव रास्ता देखें",
+    refreshGPS: "जीपीएस रीफ्रेश करें",
+    shareLocationBtn: "लोकेशन साझा करें",
+    emergencyContactsTitle: "5 आपातकालीन संपर्क एवं त्वरित सहायता निर्देशिका",
+    emergencyContactsSub: "आपातकालीन स्थिति या गंभीर दवा टकराव होने पर लाइव जीपीएस के साथ तुरंत अलर्ट भेजा जाता है।",
+    broadcastSOSToAll: "🚨 सभी 5 संपर्कों को लाइव जीपीएस के साथ SOS भेजें",
+    callContact: "कॉल करें",
+    sendSMSAlert: "SOS भेजें",
+    addContactBtn: "+ संपर्क जोड़ें",
+    manageContacts: "निर्देशिका प्रबंधित करें",
+
     // Scanner & Strips
+
     uploadMultiplePhotosTitle: "एक साथ कई दवाइयों की फोटो अपलोड करें",
     uploadMultiplePhotosSub: "अपनी गैलरी या कैमरे से 1, 2, 5 या अधिक दवा के पत्ते, शीशी या पर्चा चुनें।",
     browseSelectPhotosBtn: "गैलरी से फोटो चुनें",

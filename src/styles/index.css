@@ -1904,6 +1904,115 @@ body.dark-mode .top-card-item:hover {
   100% { transform: scale(2.2); opacity: 0; }
 }
 
+/* Live Patient GPS Location Panel Styles */
+.live-location-panel {
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.75rem;
+  box-shadow: var(--shadow-sm), var(--glass-highlight);
+  transition: all 0.2s ease;
+}
+
+.live-location-panel:hover {
+  border-color: var(--teal-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.radar-ping-ring {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.35);
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+/* 5 Emergency Contacts Hub Grid */
+.emergency-contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.emergency-contact-card {
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--shadow-sm), var(--glass-highlight);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.emergency-contact-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--teal-accent);
+  box-shadow: 0 10px 24px -4px rgba(13, 148, 136, 0.18), var(--shadow-md);
+}
+
+.emergency-contact-card.priority-card {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: linear-gradient(180deg, var(--bg-surface) 0%, rgba(239, 68, 68, 0.04) 100%);
+}
+
+.contact-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.contact-action-btn:active {
+  transform: scale(0.96);
+}
+
+.btn-call-primary {
+  background: #0284c7;
+  color: #ffffff;
+}
+
+.btn-call-primary:hover {
+  background: #0369a1;
+  color: #ffffff;
+}
+
+.btn-call-emergency {
+  background: var(--critical);
+  color: #ffffff;
+}
+
+.btn-call-emergency:hover {
+  background: var(--critical-hover);
+  color: #ffffff;
+}
+
+.btn-sms-gps {
+  background: var(--bg-surface-secondary);
+  border-color: var(--border-medium);
+  color: var(--text-main);
+}
+
+.btn-sms-gps:hover {
+  background: var(--bg-surface-hover);
+  border-color: var(--teal-accent);
+  color: var(--teal-accent);
+}
+
+
 @media (max-width: 1024px) {
   .top-today-cards-grid {
     grid-template-columns: repeat(2, 1fr);
